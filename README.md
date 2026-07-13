@@ -58,6 +58,7 @@ Para rodar o One Stock localmente, você precisará ter o Java JDK (versão 17 o
 1. Clonar o Repositório
 
 $ git clone [link do repositorio]
+
 $ cd OneStock
 
 ---
@@ -68,13 +69,14 @@ $ cd OneStock
 - Configure as credenciais de acesso ao banco e as chaves de assinatura do JWT (se aplicável) no arquivo backend/src/main/resources/application.properties.
 - Abra a pasta backend na sua IDE de preferência (como o IntelliJ IDEA) e execute a classe principal, ou utilize o terminal:
 
-Bash
 $ cd backend
 
 No Windows (PowerShell/CMD):
+
 $ .\mvnw.cmd spring-boot:run
 
 No Linux/macOS:
+
 $ ./mvnw spring-boot:run
 
 O backend estará ativo em http://localhost:8080.
@@ -82,15 +84,17 @@ O backend estará ativo em http://localhost:8080.
 ---
 
 3. Executando o Frontend (React)
+
 Abra uma nova janela de terminal e execute:
 
-Bash
 $ cd frontend
 
 Instalar as dependências do projeto
+
 $ npm install
 
 Iniciar o servidor de desenvolvimento do Vite
+
 $ npm run dev
 
 A interface estará acessível no endereço indicado no terminal. Realize o login com um usuário cadastrado no banco para acessar o painel de controle.
