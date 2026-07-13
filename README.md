@@ -51,36 +51,46 @@ one-stock/
 │   └── package.json          # Dependências do Node
 │
 └── README.md                 # Documentação principal
-
+```
 🚀 Como Executar o Projeto
 Para rodar o One Stock localmente, você precisará ter o Java JDK (versão 17 ou superior), seu Banco de Dados configurado e ativo, e o Node.js instalados.
 
 1. Clonar o Repositório
-Bash
+
 $ git clone [https://github.com/joaovictormnzs/OneStock.git](https://github.com/joaovictormnzs/OneStock.git)
 $ cd OneStock
+
+---
+
 2. Executando o Backend (Spring Boot)
-Certifique-se de que seu banco de dados está rodando.
-
-Configure as credenciais de acesso ao banco e as chaves de assinatura do JWT (se aplicável) no arquivo backend/src/main/resources/application.properties.
-
-Abra a pasta backend na sua IDE de preferência (como o IntelliJ IDEA) e execute a classe principal, ou utilize o terminal:
+ 
+- Certifique-se de que seu banco de dados está rodando.
+- Configure as credenciais de acesso ao banco e as chaves de assinatura do JWT (se aplicável) no arquivo backend/src/main/resources/application.properties.
+- Abra a pasta backend na sua IDE de preferência (como o IntelliJ IDEA) e execute a classe principal, ou utilize o terminal:
 
 Bash
 $ cd backend
+
 # No Windows (PowerShell/CMD):
 $ .\mvnw.cmd spring-boot:run
+
 # No Linux/macOS:
 $ ./mvnw spring-boot:run
+
 O backend estará ativo em http://localhost:8080.
+
+---
 
 3. Executando o Frontend (React)
 Abra uma nova janela de terminal e execute:
 
 Bash
 $ cd frontend
+
 # Instalar as dependências do projeto
 $ npm install
+
 # Iniciar o servidor de desenvolvimento do Vite
 $ npm run dev
+
 A interface estará acessível no endereço indicado no terminal (geralmente http://localhost:5173). Realize o login com um usuário cadastrado no banco para acessar o painel de controle.
