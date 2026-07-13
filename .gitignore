@@ -1,0 +1,23 @@
+# === Frontend (React / Node) ===
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
+frontend/.env.*.local
+
+# === Backend (Spring Boot / Java) ===
+backend/target/
+backend/.gradle/
+backend/build/
+backend/*.jar
+backend/*.war
+
+# === IDEs e Arquivos de Sistema ===
+.idea/
+.vscode/
+*.class
+*.iml
+.metadata/
+.classpath
+.project
+.settings/
+.DS_Store
