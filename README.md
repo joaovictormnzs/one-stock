@@ -68,19 +68,9 @@ $ cd OneStock
  
 - Certifique-se de que seu banco de dados está rodando.
 - Configure as credenciais de acesso ao banco e as chaves de assinatura do JWT (se aplicável) no arquivo backend/src/main/resources/application.properties.
-- Abra a pasta backend na sua IDE de preferência (como o IntelliJ IDEA) e execute a classe principal, ou utilize o terminal:
+- Abra a pasta backend na sua IDE de preferência (como o IntelliJ IDEA) e execute a classe principal.
 
-$ cd backend
-
-- No Windows (PowerShell/CMD):
-
-$ .\mvnw.cmd spring-boot:run
-
-- No Linux/macOS:
-
-$ ./mvnw spring-boot:run
-
-O backend estará ativo em http://localhost:8080.
+--> O backend estará ativo em http://localhost:8080.
 
 ---
 
