@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="#-sobre-o-projeto">Sobre</a> •
+  <a href="#🌊-sobre-o-projeto">Sobre</a> •
   <a href="#-tecnologias">Tecnologias</a> •
   <a href="#-estrutura">Estrutura</a> •
   <a href="#-como-executar">Como Executar</a> •
