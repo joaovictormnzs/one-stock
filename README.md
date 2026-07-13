@@ -57,7 +57,7 @@ Para rodar o One Stock localmente, você precisará ter o Java JDK (versão 17 o
 
 1. Clonar o Repositório
 
-$ git clone [https://github.com/joaovictormnzs/OneStock.git](https://github.com/joaovictormnzs/OneStock.git)
+$ git clone [link do repositorio]
 $ cd OneStock
 
 ---
@@ -71,10 +71,10 @@ $ cd OneStock
 Bash
 $ cd backend
 
-# No Windows (PowerShell/CMD):
+No Windows (PowerShell/CMD):
 $ .\mvnw.cmd spring-boot:run
 
-# No Linux/macOS:
+No Linux/macOS:
 $ ./mvnw spring-boot:run
 
 O backend estará ativo em http://localhost:8080.
@@ -87,10 +87,10 @@ Abra uma nova janela de terminal e execute:
 Bash
 $ cd frontend
 
-# Instalar as dependências do projeto
+Instalar as dependências do projeto
 $ npm install
 
-# Iniciar o servidor de desenvolvimento do Vite
+Iniciar o servidor de desenvolvimento do Vite
 $ npm run dev
 
-A interface estará acessível no endereço indicado no terminal (geralmente http://localhost:5173). Realize o login com um usuário cadastrado no banco para acessar o painel de controle.
+A interface estará acessível no endereço indicado no terminal. Realize o login com um usuário cadastrado no banco para acessar o painel de controle.
