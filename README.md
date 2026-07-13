@@ -53,7 +53,8 @@ one-stock/
 └── README.md                 # Documentação principal
 ```
 🚀 Como Executar o Projeto
-Para rodar o One Stock localmente, você precisará ter o Java JDK (versão 17 ou superior), seu Banco de Dados configurado e ativo, e o Node.js instalados.
+
+Para rodar o One Stock localmente, você precisará ter o Java JDK (versão 21 ou superior), seu Banco de Dados configurado e ativo, e o Node.js instalados.
 
 1. Clonar o Repositório
 
@@ -71,11 +72,11 @@ $ cd OneStock
 
 $ cd backend
 
-No Windows (PowerShell/CMD):
+- No Windows (PowerShell/CMD):
 
 $ .\mvnw.cmd spring-boot:run
 
-No Linux/macOS:
+- No Linux/macOS:
 
 $ ./mvnw spring-boot:run
 
