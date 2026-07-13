@@ -56,7 +56,7 @@ one-stock/
 
 Para rodar o One Stock localmente, você precisará ter o Java JDK (versão 21 ou superior), seu Banco de Dados configurado e ativo, e o Node.js instalados.
 
-1. Clonar o Repositório
+## 1. Clonar o Repositório
 
 $ git clone [link do repositorio]
 
@@ -64,7 +64,7 @@ $ cd OneStock
 
 ---
 
-2. Executando o Backend (Spring Boot)
+## 2. Executando o Backend (Spring Boot)
  
 - Certifique-se de que seu banco de dados está rodando.
 - Configure as credenciais de acesso ao banco e as chaves de assinatura do JWT (se aplicável) no arquivo backend/src/main/resources/application.properties.
@@ -74,7 +74,7 @@ $ cd OneStock
 
 ---
 
-3. Executando o Frontend (React)
+## 3. Executando o Frontend (React)
 
 Abra uma nova janela de terminal e execute:
 
