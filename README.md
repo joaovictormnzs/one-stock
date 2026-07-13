@@ -10,8 +10,8 @@
 
 <p align="center">
   <a href="#🌊-sobre-o-projeto">Sobre</a> •
-  <a href="#-tecnologias">Tecnologias</a> •
-  <a href="#-estrutura">Estrutura</a> •
+  <a href="#🛠-tecnologias-utilizadas">Tecnologias</a> •
+  <a href="#📂-Estrutura-do-Repositório">Estrutura</a> •
   <a href="#-como-executar">Como Executar</a> •
   <a href="#-autor">Autor</a>
 </p>
